@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GINGI BAKERY</title>
+    <style>
+        /* Основной стиль */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Светло-серый фон */
+            color: #333; /* Темно-серый текст */
+        }
+        
+        /* Шапка */
+        .header {
+            background-color: #4a4a4a; /* Темно-серый фон */
+            color: #fff; /* Белый текст */
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        /* Меню */
+        .menu {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #4a4a4a;
+        }
+        .menu-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .menu-item {
+            background: #fff; /* Белый фон карточек */
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            width: 250px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .menu-item h3 {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            color: #4a4a4a;
+        }
+        .menu-item .price {
+            font-size: 1.5rem;
+            color: #ff7a00;
+            font-weight: bold;
+        }
+
+        /* Отзывы */
+        .reviews {
+            background-color: #e6e6e6;
+            padding: 20px;
+            text-align: center;
+        }
+        .reviews h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #4a4a4a;
+        }
+        .review {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        /* Контакты */
+        .footer {
+            background-color: #4a4a4a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .footer a {
+            color: #ff7a00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка -->
+    <div class="header">
+        <h1>GINGI BAKERY</h1>
+        <p>Идеальные десерты для любого случая</p>
+    </div>
+
+    <!-- Меню -->
+    <div class="menu">
+        <h2>Наше меню</h2>
+        <div class="menu-items">
+            <!-- Бенто торты -->
+            <div class="menu-item">
+                <img src="bento-cake.jpg" alt="Бенто торты">
+                <h3>Бенто торты</h3>
+                <p class="price">1200 ₽</p>
+            </div>
+            <!-- Капкейки -->
+            <div class="menu-item">
+                <img src="cupcakes.jpg" alt="Капкейки">
+                <h3>Капкейки (6 шт)</h3>
+                <p class="price">900 ₽</p>
+            </div>
+            <!-- Кейкпопсы -->
+            <div class="menu-item">
+                <img src="cake-pops.jpg" alt="Кейкпопсы">
+                <h3>Кейкпопсы (6 шт)</h3>
+                <p class="price">800 ₽</p>
+            </div>
+            <!-- Cookies -->
+            <div class="menu-item">
+                <img src="cookies.jpg" alt="Cookies">
+                <h3>Cookies (10 шт)</h3>
+                <p class="price">700 ₽</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Отзывы -->
+    <div class="reviews">
+        <h2>Отзывы клиентов</h2>
+        <p class="review">"Лучшие десерты, которые я пробовала! Бенто торт был невероятным!"</p>
+        <p class="review">"Капкейки просто тают во рту! Спасибо GINGI BAKERY за качество."</p>
+        <p class="review">"Cookies идеально подходят для семейных вечеров."</p>
+    </div>
+
+    <!-- Контакты -->
+    <div class="footer">
+        <p>Позвоните нам: <a href="tel:+123456789">+7 (123) 456-789</a></p>
+        <p>Адрес: ул. Примерная, 12, Москва</p>
+        <p>© 2024 GINGI BAKERY. Все права защищены.</p>
+    </div>
+</body>
+</html>
